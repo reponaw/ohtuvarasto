@@ -49,7 +49,7 @@ class TestVarasto(unittest.TestCase):
 
     def test_alkusaldo_mahtuu(self):
         varasto = Varasto(10, 5)
-        self.assertAlmostEqual(varasto.saldo, 7)
+        self.assertAlmostEqual(varasto.saldo, 5)
 
     def test_liian_suuri_alkusaldo_tayttaa_varaston(self):
         varasto = Varasto(10, 20)
