@@ -72,12 +72,6 @@ def main():
     kokeile_virheellisia_lisayksia(mehua, olutta)
     kokeile_virheellisia_ottoja(mehua, olutta)
 
-def kokeilu(a, b, c, d, e):
-    if a:
-        if b:
-            if c:
-                print(d, e)
-
 
 if __name__ == "__main__":
     main()
